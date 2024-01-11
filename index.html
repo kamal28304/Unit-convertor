@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body class="p-2">
+
+<input class="px-4 py-2 bg-gray-300 rounded-md"
+  placeholder="enter number"
+  id="inputData"/>
+<br>
+    <select id="input-value"
+      class="my-2">
+      <option>centimeter</option>
+      <option>meter</option>
+      <option>feet</option>
+      <option>inch</option>
+    </select>
+    To
+    <select id="output-value" class="my-2">
+      <option>centimeter</option>
+      <option>meter</option>
+      <option>feet</option>
+      <option>inch</option>
+    </select>
+    <br>
+    <button 
+class="px-5 py-2 bg-indigo-500 border rounded-md text-white my-2"  onclick="unitConvertor()">Convert
+    </button>
+    <div class="mt-4 text-2xl p-4" id="convert-value">
+      
+    </div>
+  
+    <script type="module" src="/main.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
